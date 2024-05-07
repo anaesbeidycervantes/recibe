@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acciones Realizadas</title>
+    <!-- Agregar Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px; /* Ajuste para centrar el contenido verticalmente */
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        #speechResult {
+            border: 1px solid #ccc;
+            padding: 10px;
+            min-height: 100px;
+            margin-bottom: 20px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Acciones Realizadas</h1>
+        <div id="speechResult" class="rounded"></div> <!-- Aplicar la clase "rounded" para bordes redondeados -->
+    </div>
+
+    <!-- Agregar Bootstrap JS y jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Script para mostrar las acciones -->
+    <script src="recibe.js"></script>
+</body>
+</html>
